@@ -10,7 +10,7 @@ selfmonitoring. Zabbix solution has been choosed, because realtime log
 monitoring. You can find better systems (OpenTSDB, Logstash, ...) for some 
 particular monitoring problems, but Zabbix is IMHO the best and the most flexible 
 monitoring system for monitoring of Zenoss in this case. This template is 
-prepared for Zenoss Core 4.2.5 (all on one node),but it can be modified also 
+prepared for Zenoss Core 4.2.5 (all on one node), but it can be modified also 
 for commercial or older versions.
 
 Zenoss Metrics
@@ -65,7 +65,7 @@ Every Zenoss is monitored for number of processes, CPU and memory utilization
 Zenoss Ports (9 metrics)
 ------------------------
 
-Some know TCP/UDP Zenoss ports are also monitored. If port is TCP, it's also 
+Some known TCP/UDP Zenoss ports are also monitored. If port is TCP, it's also 
 monitored its performance.
 
 ![Zabbix Template App Zenoss - Zenoss Ports](https://raw.github.com/jangaraj/Zabbix-Template-App-Zenoss/master/images/Zabbix_Zenoss_App_Template_metrics_Zenoss_Ports.png)
