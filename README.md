@@ -85,11 +85,12 @@ Template contains 16 graphs. Selected examples:
 Installation
 ============
 
-Import provided template and configure Zabbix agent on Zenoss nodes as active 
-agent, because log monitoring. Also include userparameters_zenoss.conf into your 
-zabbix agent configuration (Include directive). Associate Template App Zenoss with 
-your Zenoss hosts. Another recommended standard Zabbix templates for Zenoss: 
-Template OS Linux, Template App MySQL. 
+Import provided template Zabbix-Template-App-Zenoss.xml and configure Zabbix 
+agent on Zenoss nodes as active agent, because log monitoring. Also include 
+userparameters_zenoss.conf into your zabbix agent configuration 
+(Include directive). Associate Template App Zenoss with your Zenoss hosts. 
+Another recommended standard Zabbix templates for Zenoss: Template OS Linux, 
+Template App MySQL. 
 
 
 Links
