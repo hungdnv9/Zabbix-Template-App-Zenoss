@@ -23,7 +23,7 @@ These metrics are fetched from Zenoss Daemon Performance metrics
 (/opt/zenoss/perf/Daemons/*.rrd). I didn't find any way how to obtain them 
 realtime, so RRD files are used. Zabbix doesn't handle NaN value, so NaN is 
 converted to 0.RRDs are not updated realtime, but they can be delayed 
-5-9 minutes. So rrdtool uses time condition:
+5-9 minutes. So rrdtool uses --start and --end time condition:
 
     rrdtool fetch --start=now-15min --end=now-9min <rrd_file.rrd> AVERAGE
   
@@ -73,13 +73,13 @@ monitored its performance.
 
 Graphs
 ======
-Template contains 16 graps. Selected examples:
+Template contains 16 graphs. Selected examples:
 
 ![Zabbix Template App Zenoss - Graph Zenoss CPU utilization](https://raw.github.com/jangaraj/Zabbix-Template-App-Zenoss/master/images/Zabbix_Zenoss_App_Template_graph_Zenoss_CPU_utilization.png)
 
-![Zabbix Template App Zenoss - Graph Zenoss new log lines](https://raw.github.com/jangaraj/Zabbix-Template-App-Zenoss/master/images/Zabbix_Zenoss_App_Template_graph_Zenos_new_log_lines.png)
+![Zabbix Template App Zenoss - Graph Zenoss new log lines](https://raw.github.com/jangaraj/Zabbix-Template-App-Zenoss/master/images/Zabbix_Zenoss_App_Template_graph_Zenoss_new_log_lines.png)
 
-![Zabbix Template App Zenoss - Graph Zenoss running processes](https://raw.github.com/jangaraj/Zabbix-Template-App-Zenoss/master/images/Zabbix_Zenoss_App_Template_graph_Zenos_running_processes.png)
+![Zabbix Template App Zenoss - Graph Zenoss running processes](https://raw.github.com/jangaraj/Zabbix-Template-App-Zenoss/master/images/Zabbix_Zenoss_App_Template_graph_Zenoss_running_processes.png)
 
 
 Installation
@@ -88,7 +88,7 @@ Installation
 Import provided template and configure Zabbix agent on Zenoss nodes as active 
 agent, because log monitoring. Also include userparameters_zenoss.conf into your 
 zabbix agent configuration (Include directive). Associate Template App Zenoss with 
-your Zenoss hosts. Another recommended standard Zabbix template for Zenoss: 
+your Zenoss hosts. Another recommended standard Zabbix templates for Zenoss: 
 Template OS Linux, Template App MySQL. 
 
 
@@ -96,5 +96,7 @@ Links
 =====
 
 Author: Jan Garaj - www.jangaraj.com
+
 Zabbix: www.zabbix.com
+
 Zenoss: www.zenoss.com
