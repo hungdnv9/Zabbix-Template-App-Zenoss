@@ -96,8 +96,11 @@ Template App MySQL.
 Links
 =====
 
-Author: Jan Garaj - www.jangaraj.com
-
 Zabbix: www.zabbix.com
 
 Zenoss: www.zenoss.com
+
+Author
+======
+ 
+[Devops Monitoring zExpert](http://www.jangaraj.com), who loves monitoring systems, which start with letter Z. Those are Zabbix and Zenoss. [LinkedIn] (http://uk.linkedin.com/in/jangaraj/).
