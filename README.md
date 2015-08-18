@@ -1,17 +1,16 @@
-==========================
 Zabbix Template App Zenoss
 ==========================
-
-About
-=====
 
 Zabbix template for Zenoss. Unfortunately Zenoss doesn't have powerfull  
 selfmonitoring. Zabbix solution has been choosed, because realtime log 
 monitoring. You can find better systems (OpenTSDB, Logstash, ...) for some 
 particular monitoring problems, but Zabbix is IMHO the best and the most flexible 
 monitoring system for monitoring of Zenoss in this case. This template is 
-prepared for Zenoss Core 4.2.5 (all on one node), but it can be modified also 
-for commercial or older versions.
+prepared for Zenoss Core 4.2.5 (all on one node), but it can be modified 
+for commercial or older versions as well.
+
+[![Paypal donate button](http://jangaraj.com/img/github-donate-button02.png)]
+(https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8LB6J222WRUZ4)
 
 Zenoss Metrics
 ==============
@@ -92,15 +91,13 @@ userparameters_zenoss.conf into your zabbix agent configuration
 Another recommended standard Zabbix templates for Zenoss: Template OS Linux, 
 Template App MySQL. 
 
-
-Links
-=====
-
-Zabbix: www.zabbix.com
-
-Zenoss: www.zenoss.com
-
 Author
 ======
- 
-[Devops Monitoring zExpert](http://www.jangaraj.com), who loves monitoring systems, which start with letter Z. Those are Zabbix and Zenoss. [LinkedIn] (http://uk.linkedin.com/in/jangaraj/).
+
+[Devops Monitoring zExpert](http://www.jangaraj.com), who loves monitoring 
+systems, which start with letter Z. Those are Zabbix and Zenoss.
+
+Professional monitoring services:
+
+[![Monitoring Artist](http://monitoringartist.com/img/github-monitoring-artist-logo.jpg)]
+(http://www.monitoringartist.com)
